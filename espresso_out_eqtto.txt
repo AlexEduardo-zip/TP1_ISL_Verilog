@@ -1,0 +1,7 @@
+b3 = (bcd[3]);
+
+b2 = (~bcd[3] & bcd[2]) | (bcd[3] & ~bcd[2]);
+
+b1 = (bcd[2] & ~bcd[1]) | (~bcd[2] & bcd[1]);
+
+b0 = (bcd[1] & ~bcd[0]) | (~bcd[1] & bcd[0]);
